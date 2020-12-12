@@ -247,7 +247,7 @@ PRODUCT_PACKAGES += \
 
 # MotoActions
 PRODUCT_PACKAGES += \
-    MotoActions
+    LineageActions
 
 # Media (OMX)
 PRODUCT_PACKAGES += \
