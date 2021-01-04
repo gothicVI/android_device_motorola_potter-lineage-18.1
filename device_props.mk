@@ -166,7 +166,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.radio.jbims=1 \
     persist.radio.RATE_ADAPT_ENABLE=1 \
     persist.radio.VT_ENABLE=1 \
     persist.radio.VT_HYBRID_ENABLE=1 \
