@@ -78,5 +78,8 @@ fi
 MOT_GPU_MAPPER="$BLOB_ROOT"/vendor/lib/libmot_gpu_mapper.so
 patchelf --add-needed libgpu_mapper_shim.so "$MOT_GPU_MAPPER"
 
+# WFD shim
+WFD_SHIM="$BLOB_ROOT"/lib64/libwfdnative.so
+patchelf --add-needed libshim_wfdservice.so "WFD_SHIM"
 
 "$MY_DIR"/setup-makefiles.sh

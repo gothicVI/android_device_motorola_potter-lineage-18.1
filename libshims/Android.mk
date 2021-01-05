@@ -59,3 +59,10 @@ LOCAL_SHARED_LIBRARIES := libcutils
 LOCAL_MODULE := libcutils_shim
 LOCAL_MODULE_TAGS := optional
 include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_SRC_FILES := wfdservice_shim.cpp
+LOCAL_MODULE := libshim_wfdservice
+LOCAL_MODULE_TAGS := optional
+LOCAL_VENDOR_MODULE := false
+include $(BUILD_SHARED_LIBRARY)
