@@ -60,6 +60,9 @@ TARGET_USES_64_BIT_BINDER := true
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := potter,potter_retail
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2021-01-01
+
 # Enable dexpreopt to speed boot time
 WITH_DEXPREOPT := true
 TARGET_FLATTEN_APEX := true
